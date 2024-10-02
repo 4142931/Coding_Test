@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9313682d-ac71-4b80-b652-c0cc8f958ff9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2jJYVkInwsUVYo2pbUyNhDwdykt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.111.executor": "Run",
+    "Python.123.executor": "Run",
+    "Python.24_09_09.executor": "Run",
+    "Python.24_09_10.executor": "Run",
+    "Python.24_09_11.executor": "Run",
+    "Python.24_09_12.executor": "Run",
+    "Python.24_09_13.executor": "Run",
+    "Python.24_09_14.executor": "Run",
+    "Python.24_09_15.executor": "Run",
+    "Python.B.if_case01.executor": "Run",
+    "Python.Bubble_sorted.executor": "Run",
+    "Python.I.executor": "Run",
+    "Python.Test01_datetime.executor": "Run",
+    "Python.Test02.executor": "Run",
+    "Python.Test03.executor": "Run",
+    "Python.Test04.executor": "Run",
+    "Python.Test05.executor": "Run",
+    "Python.Workshop01.executor": "Run",
+    "Python.Workshop01_Calc.executor": "Run",
+    "Python.aa.executor": "Run",
+    "Python.c.if.executor": "Run",
+    "Python.c_db.executor": "Run",
+    "Python.coding test.executor": "Run",
+    "Python.coding test02.executor": "Run",
+    "Python.coding.executor": "Run",
+    "Python.coding_test.executor": "Run",
+    "Python.datetime.executor": "Run",
+    "Python.mytest.executor": "Run",
+    "Python.score.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.매개인자와 리턴 있는 경우.executor": "Run",
+    "Python.클래스 연습.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Mywork/Coding_test",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mywork\Coding_test" />
+      <recent name="C:\Mywork\Test02\국영수 총점 평균" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9313682d-ac71-4b80-b652-c0cc8f958ff9" name="Changes" comment="" />
+      <created>1721106672273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721106672273</updated>
+    </task>
+    <servers />
+  </component>
+</project>
