@@ -1,4 +1,4 @@
-#컨트롤 제트
+#컨트롤 Z
 '''
 숫자와 "Z"가 공백으로 구분되어 담긴 문자열이 주어집니다. 
 문자열에 있는 숫자를 차례대로 더하려고 합니다. 
@@ -8,16 +8,23 @@
 '''
 
 def solution(s):
-    res = list(s.replace(' ','')) # 매개변수 s에 담긴 공백을 제거 후 list로 변경
-    Z_index = res.index('Z') if 'Z' in res else None # "Z"를 "Z" 앞에 수의 -로 만들기 위한 인덱스 찾기
+    # 결과 저장할 변수
+    anwser = 0
+    last_res = 0
 
-    if Z_index is not None: # Z_index에 Z가 있으면 실행 
-        res[Z_index] = '-' + res[Z_index - 1] # 'Z'가 있는 경우 앞의 인덱스의 -를 붙인 수로 변경
-    
-    anwser = list(map(lambda x : int(x), res))
+    # 문자열 분리
+    for str in s.split():
+        if str == 'Z':
+            # "Z"가 나타나면 마지막으로 추가한 숫자를 결과에서 제거
+            anwser = anwser - last_res
+        else: 
+            # 숫자를 결과에 추가하고, 마지막으로 추가한 숫자를 저장
+            num = int(str)
+            anwser += num
+            last_res = num
+            
+    return anwser
 
-
-    return sum(anwser)
 
 
 print(solution("-1 -2 -3 Z")) 
