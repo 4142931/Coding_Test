@@ -14,13 +14,18 @@ def solution(array, n):
         sub_array.append(abs(sub))
     min_res = min(sub_array)
 
-    res = sub_array.index(min_res)
-    
-    answer = array[res]
-    return answer
+   # 동일한 최소 차이를 가지는 값들을 찾아보자
+    answer = []
+    for i, val in enumerate(sub_array):
+        print(i, val)
+        if val == min_res:
+            answer.append(array[i])
+
+    return min(answer)
 
 
 
-print(solution([3, 10, 28], 28))
+
+print(solution([3, 10, 28], 20))
 
 
