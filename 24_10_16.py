@@ -21,7 +21,7 @@ def solution(array, n):
         if val == min_res:
             answer.append(array[i])
 
-    return min(answer)
+    return min(answer) # []배열 제거 
 
 
 
