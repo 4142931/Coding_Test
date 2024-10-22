@@ -15,11 +15,11 @@ def solution(cipher, code):
     return answer
 
 #str에 바로 슬라이싱 가능했다! 
-def solution01(cipher, code):
+def solution(cipher, code):
     print(cipher[0:1])
     return None
 
-print(solution01("dfjardstddetckdaccccdegk", 4))
+print(solution("dfjardstddetckdaccccdegk", 4))
 
 
 

@@ -7,23 +7,21 @@
 '''
 def solution(numbers):
     #numbers에 해당하는 숫자 dict
-    number_dict = {"one" : 1, "two" : 2, "three" : 3, "four":4, "five":5, "six" :6,"seven":7 ,"eight":8 ,"nine":9}
+    numbers_dict = {"zero":"0", "one":"1", "two":"2", "three":"3", "four":"4", "five":"5", "six" :"6", "seven":"7" , "eight":"8" , "nine":"9"}
     
-    #리턴할 답을 받을 변수
-    answer = ""
+    # dict의 key와 value를 이용해 문자열을 대체
+    for key, value in numbers_dict.items():
+        numbers = numbers.replace(key, value)
 
-    #반복문의 결과를 담을 변수
-    res = ""
-
-    for i in numbers:
-        res += i
-    print(res)
-
+    # 문자열을 숫자형으로 전환
+    return int(numbers)
         
 
-print(solution("onetwothreefourfivesixseveneightnine"))
+        
+print(solution("fourzerosixsevenone"))
 
 
+# enumerate
 
 
 # 인덱스 바꾸기
@@ -46,6 +44,6 @@ def solution(my_string, num1, num2):
     return answer
     
 
-print(solution("hello",1,2))
+#print(solution("hello",1,2))
 
 
