@@ -41,26 +41,33 @@ print(solution([9, 10, 11, 8]))
 
 
 
-# 문자열 계산하기 
-'''
-my_string은 "3 + 5"처럼 문자열로 된 수식입니다. 
-문자열 my_string이 매개변수로 주어질 때, 
-수식을 계산한 값을 return 하는 solution 함수를 완성해주세요.
-'''
+# # 문자열 계산하기 
+# '''
+# my_string은 "3 + 5"처럼 문자열로 된 수식입니다. 
+# 문자열 my_string이 매개변수로 주어질 때, 
+# 수식을 계산한 값을 return 하는 solution 함수를 완성해주세요.
+# '''
 
 def solution(my_string):
     # 공백으로 분리
     res = my_string.split()
+    print(res)
+    # 초기값 설정
+    answer = int(res[0])
     
-    # 숫자와 연산자 추출
-    num1, operator, num2 = res
-    
-    # 연산자에 따라 계산
-    if operator == '+':
-        answer = int(num1) + int(num2)
-    elif operator == '-':
-        answer = int(num1) - int(num2)
-    
+    # 두 번째 원소부터 순서대로 연산자와 숫자를 가져옴
+    for i in range(1, len(res), 2):
+        operator = res[i]
+        num = int(res[i + 1])
+        
+        # 연산자에 따라 계산 수행
+        if operator == '+':
+            answer += num
+
+        elif operator == '-':
+            answer -= num
+            
     return answer
+   
 
 print(solution("3 + 4")) 
